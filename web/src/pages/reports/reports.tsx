@@ -2,14 +2,14 @@ import React from 'react'
 
 import { Text, Heading, Box } from '@chakra-ui/react'
 
-export const Implementations = () => {
+export const Reports = () => {
   return (
     <Box>
       <Heading as="h1" size="xl" mb="6">
-        Implementaciones
+        Reportes
       </Heading>
       <Text fontSize="lg" mb="4">
-        Contenido de implementaciones
+        Contenido de reportes
       </Text>
     </Box>
   )

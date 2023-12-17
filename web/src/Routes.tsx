@@ -13,6 +13,7 @@ import { Home } from './pages/home'
 import { Implementations } from './pages/implementations'
 import { NotFound } from './pages/not-found'
 import { Patterns } from './pages/patterns'
+import { Reports } from './pages/reports'
 
 const Routes = () => {
   return (
@@ -21,6 +22,7 @@ const Routes = () => {
       <Route path="/" page={Home} name="home" />
       <Route path="/patterns" page={Patterns} name="patterns" />
       <Route path="/implementations" page={Implementations} name="implementations" />
+      <Route path="/reports" page={Reports} name="reports" />
     </Router>
   )
 }
