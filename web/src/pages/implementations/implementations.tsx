@@ -9,7 +9,7 @@ export const Implementations = () => {
         Implementaciones
       </Heading>
       <Text fontSize="lg" mb="4">
-        Contenido de implementaciones
+        Contenido de implementaciones 2
       </Text>
     </Box>
   )
