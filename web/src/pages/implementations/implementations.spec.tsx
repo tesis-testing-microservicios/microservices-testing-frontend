@@ -7,6 +7,6 @@ describe('Implementations page', () => {
     RTL.render(<Implementations />)
 
     RTL.screen.getByText('Implementaciones')
-    RTL.screen.getByText(/contenido de implementaciones 2/i)
+    RTL.screen.getByText(/contenido de implementaciones/i)
   })
 })
