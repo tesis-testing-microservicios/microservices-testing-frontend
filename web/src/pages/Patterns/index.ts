@@ -1,1 +1,1 @@
-export * from './patterns-page'
+export * from './patterns'

@@ -23,9 +23,9 @@ export const Navbar: React.FC = () => {
                 Componentes
               </Text>
               <Stack spacing="1">
-                <NavButton label="Patrones" to="/patrones" />
-                <NavButton label="Implementaciones" to="/implementaciones" />
-                <NavButton label="Reportes" to="/reportes" />
+                <NavButton label="Patrones" to="/patterns" />
+                <NavButton label="Implementaciones" to="/implementations" />
+                <NavButton label="Reportes" to="/reports" />
                 <NavButton label="Test" to="/tests" />
               </Stack>
             </Stack>

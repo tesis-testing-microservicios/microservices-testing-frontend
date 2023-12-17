@@ -5,7 +5,7 @@ import { Box, Container, Flex, HStack } from '@chakra-ui/react'
 import { Navbar } from 'src/features/navbar'
 import Routes from 'src/Routes'
 
-export const Layout: React.FC = () => {
+export const Layout = () => {
   return (
     <HStack>
       <Box bgColor="teal.50">

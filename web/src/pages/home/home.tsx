@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Box, Heading, Text } from '@chakra-ui/react'
 
-export const HomePage: React.FC = () => {
+export const Home = () => {
   return (
     <Box>
       <Heading as="h1" size="xl" mb="6">

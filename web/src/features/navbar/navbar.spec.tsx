@@ -1,6 +1,6 @@
 import * as RTL from '@redwoodjs/testing/web'
 
-import { Navbar } from './navbar'
+import { Navbar } from '.'
 
 describe('HomePage', () => {
   it('renders successfully', () => {

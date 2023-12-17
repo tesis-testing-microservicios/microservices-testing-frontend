@@ -4,14 +4,13 @@ import * as theme from 'config/chakra.config'
 import { FatalErrorBoundary, RedwoodProvider } from '@redwoodjs/web'
 import { RedwoodApolloProvider } from '@redwoodjs/web/apollo'
 
-import FatalErrorPage from 'src/pages/FatalErrorPage'
-
 import { Layout } from './layouts'
+import { DevFatalError } from './pages/fatal-error'
 
 const extendedTheme = extendTheme(theme)
 
 const App = () => (
-  <FatalErrorBoundary page={FatalErrorPage}>
+  <FatalErrorBoundary page={DevFatalError}>
     <RedwoodProvider titleTemplate="%PageTitle | %AppTitle">
       <ColorModeScript />
       <ChakraProvider theme={extendedTheme}>

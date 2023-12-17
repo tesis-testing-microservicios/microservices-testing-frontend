@@ -1,10 +1,10 @@
 import * as RTL from '@redwoodjs/testing/web'
 
-import { PatternsPage } from './patterns-page'
+import { Patterns } from '.'
 
-describe('HomePage', () => {
+describe('Patterns page', () => {
   it('renders successfully', () => {
-    RTL.render(<PatternsPage />)
+    RTL.render(<Patterns />)
 
     RTL.screen.getByText('Patrones')
     RTL.screen.getByText(/contenido de patrones/i)

@@ -2,14 +2,14 @@ import React from 'react'
 
 import { Text, Heading, Box } from '@chakra-ui/react'
 
-export const PatternsPage: React.FC = () => {
+export const Implementations = () => {
   return (
     <Box>
       <Heading as="h1" size="xl" mb="6">
-        Patrones
+        Implementaciones
       </Heading>
       <Text fontSize="lg" mb="4">
-        Contenido de patrones
+        Contenido de implementaciones
       </Text>
     </Box>
   )

@@ -1,10 +1,10 @@
 import * as RTL from '@redwoodjs/testing/web'
 
-import { HomePage } from './home-page'
+import { Home } from '.'
 
-describe('HomePage', () => {
+describe('Home page', () => {
   it('renders successfully', () => {
-    RTL.render(<HomePage />)
+    RTL.render(<Home />)
 
     RTL.screen.getByText(/welcome to my app/i)
     RTL.screen.getByText(

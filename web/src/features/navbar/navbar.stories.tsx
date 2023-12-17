@@ -1,6 +1,6 @@
 import type { StoryObj } from '@storybook/react'
 
-import { Navbar } from './navbar'
+import { Navbar } from '.'
 
 type Args = {}
 
