@@ -14,6 +14,7 @@ import { Implementations } from './pages/implementations'
 import { NotFound } from './pages/not-found'
 import { Patterns } from './pages/patterns'
 import { Reports } from './pages/reports'
+import { Tests } from './pages/tests'
 
 const Routes = () => {
   return (
@@ -23,6 +24,7 @@ const Routes = () => {
       <Route path="/patterns" page={Patterns} name="patterns" />
       <Route path="/implementations" page={Implementations} name="implementations" />
       <Route path="/reports" page={Reports} name="reports" />
+      <Route path="/tests" page={Tests} name="tests" />
     </Router>
   )
 }
