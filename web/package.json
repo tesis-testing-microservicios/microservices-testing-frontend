@@ -27,5 +27,11 @@
     "@redwoodjs/vite": "6.5.1",
     "@types/react": "18.2.37",
     "@types/react-dom": "18.2.15"
+  },
+  "scripts": {
+    "start": "rw dev",
+    "test": "rw test a",
+    "test-coverage": "rw test a --no-watch --collect-coverage",
+    "storybook": "rw storybook"
   }
 }
