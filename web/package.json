@@ -31,6 +31,7 @@
   "scripts": {
     "start": "rw dev",
     "test": "rw test a",
+    "test:watch": "rw test --watch",
     "test-coverage": "rw test a --no-watch --collect-coverage",
     "storybook": "rw storybook"
   }
